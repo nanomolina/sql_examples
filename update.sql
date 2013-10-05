@@ -1,4 +1,4 @@
-UPDATE `test`.`Libro` 
+UPDATE `libraries`.`Libro` 
 SET 	`ISBN` = '1345',
 	`titulo` = 'Probabilidad Y Estadística para Ingenierías Y Ciencias',
 	`editorial` = 'Cengage Learning Editores',
