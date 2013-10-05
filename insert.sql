@@ -1,5 +1,12 @@
-INSERT INTO `Libro`(`ISBN`, `Titulo`, `editorial`, `edicion`)
-VALUES ("1", "aa", "bb", "4"); 
+INSERT INTO `Persona` (`apellido`, `rest_nom`, `DNI`) VALUES
+('Pilotta', 'Elvio', 17987456),
+('Vega', 'Juan Manuel', 33876453),
+('Zapata', 'Illak Yuri', 34786534),
+('Molina', 'Enrique Dario', 34876451),
+('Segobia', 'Nazareno Juan', 35876245),
+('Molina', 'Arnaldo Antonio', 37462761),
+('Lusso', 'Joni', 37579234),
+('Verblud', 'David Javier', 37696497);
 
 INSERT INTO `Libro` VALUES 
 ("8761", "Sistemas operativos modernos", "Pearson Educación", "2"),
