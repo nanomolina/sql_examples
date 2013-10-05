@@ -2,7 +2,7 @@
 SELECT *
 FROM `Libro`
 WHERE `editorial` = "Prentice Hall"
-AND `edicion` >1
+AND `edicion` >1;
 
 -- Titulo e ISBN de todos los libros cuyo autor es Avi Silberschatz
 SELECT `titulo`, `Libro`.`ISBN`
@@ -10,7 +10,7 @@ FROM `Libro`, `Libro_autor`
 WHERE `Libro`.`ISBN` = `Libro_autor`.`ISBN` 
 AND `nomb_autor` = "Avi Silberschatz";
 
---ISBN y titulo de todos los libros cuyo autor es Andrew S. Tanenbaum ordenados de forma descendente
+-- ISBN y titulo de todos los libros cuyo autor es Andrew S. Tanenbaum ordenados de forma descendente
 SELECT `Libro`.`ISBN`, `titulo`
 FROM `Libro`, `Libro_autor`
 WHERE `Libro`.`ISBN` = `Libro_autor`.`ISBN`
