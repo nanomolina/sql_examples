@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Tiempo de generación: 08-10-2013 a las 04:26:52
+-- Tiempo de generación: 08-10-2013 a las 07:11:20
 -- Versión del servidor: 5.6.12
 -- Versión de PHP: 5.5.3
 
@@ -164,7 +164,12 @@ CREATE TABLE IF NOT EXISTS `Persona` (
 --
 
 INSERT INTO `Persona` (`apellido`, `rest_nom`, `DNI`) VALUES
+('Bustos', 'Juan Carlos', 10876456),
+('Rodriguez', 'Silvio Savedra', 11876345),
+('Perez', 'Maria silvana', 12345666),
 ('Pilotta', 'Elvio', 17987456),
+('Carrizo', 'Nelida Ester', 24876290),
+('Roca', 'Julio Argentino Roca', 25987345),
 ('Vega', 'Juan Manuel', 33876453),
 ('Zapata', 'Illak Yuri', 34786534),
 ('Molina', 'Enrique Dario', 34876451),

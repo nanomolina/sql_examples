@@ -39,3 +39,9 @@ SELECT `nom_bib`, AVG(`antiguedad`)
 FROM `Bibliotecario`, `TrabajaEn`
 WHERE `Biblioteca`.`DNI` = `TrabajaEn`.`DNI`
 GROUP BY `nom_bib`;
+
+
+SELECT `apellido` , `rest_nom`
+FROM `Persona` , `TrabajaEn`
+WHERE `Persona`.`DNI` = `TrabajaEn`.`DNI`
+AND `nom_bib` = "FaMAF";

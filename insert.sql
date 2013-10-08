@@ -1,5 +1,10 @@
 INSERT INTO `Persona` (`apellido`, `rest_nom`, `DNI`) VALUES
+('Bustos', 'Juan Carlos', 10876456),
+('Rodriguez', 'Silvio Savedra', 11876345),
+('Perez', 'Maria silvana', 12345666),
 ('Pilotta', 'Elvio', 17987456),
+('Carrizo', 'Nelida Ester', 24876290),
+('Roca', 'Julio Argentino Roca', 25987345),
 ('Vega', 'Juan Manuel', 33876453),
 ('Zapata', 'Illak Yuri', 34786534),
 ('Molina', 'Enrique Dario', 34876451),
