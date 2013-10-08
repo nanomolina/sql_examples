@@ -37,7 +37,7 @@ AND `B2`.`antiguedad` < `B1`.`antiguedad`;
 
 SELECT `nom_bib`, AVG(`antiguedad`)
 FROM `Bibliotecario`, `TrabajaEn`
-WHERE `Biblioteca`.`DNI` = `TrabajaEn`.`DNI`
+WHERE `Bibliotecario`.`DNI` = `TrabajaEn`.`DNI`
 GROUP BY `nom_bib`;
 
 
